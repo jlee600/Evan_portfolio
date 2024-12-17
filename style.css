@@ -163,7 +163,7 @@ section {
     gap: 0.75rem;
     font-size: 1.75rem;
     margin-bottom: 1rem;
-    margin-left: 1rem;
+    justify-content: center;
 }
 .text-part {
     margin: 0; 
@@ -177,7 +177,7 @@ section {
     font-size: 3rem;
     text-align: center;
 }
-.socials_container {
+#socials-container {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
@@ -362,3 +362,10 @@ article .icon {
 }
 
 /* Footer */
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+footer p {
+    text-align: center;
+}
